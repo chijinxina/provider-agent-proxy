@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="wangle"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\folly\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wangle">
+				<Option output="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/lib/libwangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle"/>
+					<Add directory="/home/chijinxin/folly"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 wangle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wangle/fast">
+				<Option output="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/lib/libwangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle"/>
+					<Add directory="/home/chijinxin/folly"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 wangle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProviderAgent">
+				<Option output="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/bin/ProviderAgent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle"/>
+					<Add directory="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/chijinxin/folly"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProviderAgent"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProviderAgent/fast">
+				<Option output="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/bin/ProviderAgent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle"/>
+					<Add directory="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/chijinxin/folly"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProviderAgent/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/Acceptor.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/Acceptor.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/AcceptorHandshakeManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/AcceptorHandshakeManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/ConnectionCounter.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/ConnectionManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/ConnectionManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/EvbHandshakeHelper.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/EvbHandshakeHelper.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/LoadShedConfiguration.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/LoadShedConfiguration.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/ManagedConnection.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/ManagedConnection.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/NetworkAddress.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/PeekingAcceptorHandshakeHelper.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SSLAcceptorHandshakeHelper.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SSLAcceptorHandshakeHelper.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SSLContextSelectionMisc.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SecureTransportType.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SecureTransportType.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SecurityProtocolContextManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/ServerSocketConfig.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SocketOptions.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SocketOptions.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/SocketPeeker.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/TLSPlaintextPeekingCallback.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/TLSPlaintextPeekingCallback.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/TransportInfo.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/TransportInfo.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/UnencryptedAcceptorHandshakeHelper.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/acceptor/test/AcceptorHelperMocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/AcceptRoutingHandler-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/AcceptRoutingHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/BaseClientBootstrap.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/ClientBootstrap.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/RoutingDataHandler-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/RoutingDataHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/ServerBootstrap-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/ServerBootstrap.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/ServerBootstrap.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/ServerSocketFactory.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/bootstrap/test/Mocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/AsyncSocketHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/EventBaseHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/FileRegion.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/FileRegion.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/Handler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/HandlerContext-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/HandlerContext.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/OutputBufferingHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/Pipeline-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/Pipeline.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/Pipeline.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/StaticPipeline.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/broadcast/BroadcastHandler-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/broadcast/BroadcastHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/broadcast/BroadcastPool-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/broadcast/BroadcastPool.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/broadcast/ObservingHandler-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/broadcast/ObservingHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/broadcast/Subscriber.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/broadcast/test/Mocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/test/MockHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/channel/test/MockPipeline.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/chijinxin/ProviderAgent.cpp">
+			<Option target="ProviderAgent"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/FilePersistentCache-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/FilePersistentCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/LRUInMemoryCache-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/LRUInMemoryCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/LRUPersistentCache-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/LRUPersistentCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/PersistentCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/PersistentCacheCommon.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/SharedMutexCacheLockGuard.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/test/Mocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/persistence/test/TestUtil.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSession.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSessionCacheData.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSessionCacheData.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSessionCacheUtils.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSessionCacheUtils.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSessionCallbacks.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSessionCallbacks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSessionPersistentCache-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/SSLSessionPersistentCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/ThreadSafeSSLSessionCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/test/Mocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/client/ssl/test/TestUtil.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/ByteToMessageDecoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/FixedLengthFrameDecoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/LengthFieldBasedFrameDecoder.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/LengthFieldBasedFrameDecoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/LengthFieldPrepender.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/LengthFieldPrepender.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/LineBasedFrameDecoder.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/LineBasedFrameDecoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/MessageToByteEncoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/StringCodec.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/codec/test/CodecTestUtils.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/deprecated/rx/Dummy.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/deprecated/rx/Observable.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/deprecated/rx/Observer.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/deprecated/rx/Subject.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/deprecated/rx/Subscription.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/deprecated/rx/types.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/service/ClientDispatcher.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/service/CloseOnReleaseFilter.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/service/ExecutorFilter.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/service/ExpiringFilter.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/service/ServerDispatcher.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/service/Service.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/ClientHelloExtStats.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/PasswordInFile.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/PasswordInFile.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLCacheOptions.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLCacheProvider.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLContextConfig.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLContextManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLContextManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLSessionCacheManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLSessionCacheManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLStats.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLUtil.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/SSLUtil.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/ServerSSLContext.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/ServerSSLContext.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/TLSCredProcessor.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/TLSCredProcessor.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/TLSTicketKeyManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/TLSTicketKeyManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/TLSTicketKeySeeds.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/ssl/test/TicketUtil.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/util/FilePoller.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/util/FilePoller.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/util/MultiFilePoller.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/../../../../../usr/local/lib/cmake/folly/folly-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/../../../../../usr/local/lib/cmake/folly/folly-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/../../../../../usr/local/lib/cmake/folly/folly-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake/CheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake/FindDoubleConversion.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake/FindGflags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake/FindLibevent.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake/FindLibrt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/provider-agent-proxy/wangle/cmake/wangle-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
